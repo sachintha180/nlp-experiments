@@ -3,7 +3,7 @@
 A simple dashboard to work with basic NLP operations (preprocessing, processing, modelling, etc.)
 
 ## How do I run the project?
-- `cd backend`, `python -m venv env`, `source env/bin/activate`, `pip install -r requirements.txt`, `python server.py` to run Flask server.
+- `cd backend`, `python -m venv env`, `source env/bin/activate`, `pip install -r requirements.txt`, `python server.py` to run the Flask server.
 - `cd frontend`, `npm i` and `npm run dev` to run Vite.
 
 
