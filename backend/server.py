@@ -156,3 +156,7 @@ def process():
             return jsonify({"data": data, "error": "Invalid operation"})
 
     return jsonify({"data": data, "error": ""})
+
+
+if __name__ == "__main__":
+    app.run(debug=True)

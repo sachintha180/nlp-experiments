@@ -3,7 +3,8 @@ import { Dispatch, SetStateAction } from "react";
 
 import { ErrorType } from "../types/error";
 
-const SERVER_BASE_URL = "https://nlp-experiments-backend.vercel.app";
+const SERVER_BASE_URL = "http://127.0.0.1:5000";
+// const SERVER_BASE_URL = "https://nlp-experiments-backend.vercel.app";
 
 type ErrorMessageType = {
   loading: string;
