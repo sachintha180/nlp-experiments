@@ -3,14 +3,12 @@ import string
 
 from flask import Flask, jsonify, request
 from flask_cors import CORS
-from nltk import download, ne_chunk, pos_tag, word_tokenize
+from nltk import ne_chunk, pos_tag, word_tokenize
 from nltk.chunk import tree2conlltags
 from nltk.stem import PorterStemmer, WordNetLemmatizer
 
 app = Flask(__name__)
 CORS(app)
-
-download("wordnet")
 
 NEWS_DATA_FILEPATH = "docs/News_Category_Dataset_v3.json"
 BASE_DATA = {"documents": [], "tokens": [], "tags": []}
