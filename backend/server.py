@@ -39,6 +39,11 @@ def prepare_fname(headline: str, max_chars=20):
     return cleaned
 
 
+@app.route("/", methods=["GET"])
+def index():
+    return "NLP Experiments - Backend."
+
+
 @app.route("/documents", methods=["GET"])
 def documents():
     global data
